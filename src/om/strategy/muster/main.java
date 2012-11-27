@@ -12,7 +12,7 @@ public class main {
 		modell.toFliegen();
 		modell.setFlugVerhalten(new FliegtReketenGetrieben());
 		modell.toFliegen();
-	System.out.println("Owen");
+	
 	}
 
 }
