@@ -7,13 +7,13 @@ import om.observer.muster.interfaces.Beobachter;
 import om.observer.muster.interfaces.Subjekt;
 
 public class WetterDaten  implements Subjekt{
-	private ArrayList beobachter;
+	private ArrayList <Beobachter> beobachter;
 	private float temperatur;
 	private float feuchtigkeit;
 	private float luftdruckt;
 	
 	public WetterDaten(){
-		beobachter= new ArrayList();
+		beobachter= new ArrayList<Beobachter>() ;
 		
 	}
 	

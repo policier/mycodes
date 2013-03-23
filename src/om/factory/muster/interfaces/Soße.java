@@ -1,0 +1,6 @@
+package om.factory.muster.interfaces;
+
+public interface Soﬂe {
+	public String name();
+
+}

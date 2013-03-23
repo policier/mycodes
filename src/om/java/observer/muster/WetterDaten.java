@@ -30,7 +30,7 @@ public class WetterDaten  extends Observable{
 	}	
 	
 	public void messwertGeeandert(){
-		setChanged();
+    	setChanged();
 		notifyObservers();
 	}
 	
